@@ -39,7 +39,10 @@ if st.button("우즈에게 말 걸기") and name.strip():
     elif line == "... ... (허드슨의 말을 무시하는 것 같다...)":
         st.info(line)
     elif line == "쳐맞고 말할래, 그냥 말할래!":
-        st.info(line)
+        st.info(f"{name}에게: {line}")
         st.image("https://github.com/seo105js/Woods_line_test/blob/main/C%E2%80%8Ba%E2%80%8Bl%E2%80%8Bl%E2%80%8B%20%E2%80%8Bo%E2%80%8Bf%E2%80%8B%20%E2%80%8BD%E2%80%8Bu%E2%80%8Bt%E2%80%8By%E2%80%8B%C2%AE%E2%80%8B_%E2%80%8B%20%E2%80%8BB%E2%80%8Bl%E2%80%8Ba%E2%80%8Bc%E2%80%8Bk%E2%80%8B%20%E2%80%8BO%E2%80%8Bp%E2%80%8Bs%E2%80%8B%20%E2%80%8BC%E2%80%8Bo%E2%80%8Bl%E2%80%8Bd%E2%80%8B%20%E2%80%8BW%E2%80%8Ba%E2%80%8Br%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%202025-02-21%20%EC%98%A4%ED%9B%84%2010_15_19.PNG?raw=true")
+    elif line == "지랄, 내 계획은 항상 개쩌는 거 몰라?":
+        st.info(f"{name}에게: {line}")
+        st.image("https://github.com/seo105js/Woods_line_test/blob/main/%E2%80%8BC%E2%80%8Ba%E2%80%8Bl%E2%80%8Bl%E2%80%8B%20%E2%80%8Bo%E2%80%8Bf%E2%80%8B%20%E2%80%8BD%E2%80%8Bu%E2%80%8Bt%E2%80%8By%E2%80%8B%C2%AE%E2%80%8B_%E2%80%8B%20%E2%80%8BB%E2%80%8Bl%E2%80%8Ba%E2%80%8Bc%E2%80%8Bk%E2%80%8B%20%E2%80%8BO%E2%80%8Bp%E2%80%8Bs%E2%80%8B%20%E2%80%8BC%E2%80%8Bo%E2%80%8Bl%E2%80%8Bd%E2%80%8B%20%E2%80%8BW%E2%80%8Ba%E2%80%8Br%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%202025-02-23%20%EC%98%A4%EC%A0%84%2012_42_10.png?raw=true")
     else:
         st.info(f"{name}에게: {line}")
