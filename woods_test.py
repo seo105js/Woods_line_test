@@ -37,6 +37,6 @@ if st.button("우즈에게 말 걸기") and name.strip():
     if name == "벨" and line == "이게 누구야, 애들러의 수제자네.":
         st.error(f"{name}에게: {line}")
     elif line == "... ... (허드슨의 말을 무시하는 것 같다...)":
-        st.write(line)
+        st.info(line)
     else:
         st.info(f"{name}에게: {line}")
