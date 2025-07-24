@@ -53,7 +53,7 @@ if st.button("우즈에게 말 걸기"):
         st.info(f"{name}에게: {random.choice(lst_m)}")
     elif name == "벨":
         random.choice(lst_bell)
-        if random.choice == "이게 누구야, 애들러의 수제자네.":
+        if random.choice(lst_bell) == "이게 누구야, 애들러의 수제자네.":
             st.error(f"{name}에게: "이게 누구야, 애들러의 수제자네.")
         else:
             st.info(f"{name}에게: {random.choice(lst_bell)}")
